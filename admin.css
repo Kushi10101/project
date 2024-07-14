@@ -1,0 +1,100 @@
+/* main.css */
+
+/* General Styles */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #4CAF50;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #555;
+}
+
+/* Panel Styles */
+.panel {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.panel-heading {
+    border-bottom: 1px solid #eee;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+/* Form Styles */
+.form-horizontal .form-group {
+    margin: 0 0 15px 0;
+}
+
+.control-label {
+    text-align: left;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #ddd;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4CAF50;
+    box-shadow: none;
+}
+
+/* Button Styles */
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #45A049;
+    border-color: #45A049;
+}
+
+.btn-labeled {
+    padding-right: 10px;
+}
+
+.btn-label-right {
+    position: relative;
+    left: -5px;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.fa-check {
+    color: #fff;
+}
+
+.text-muted {
+    color: #888;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.pt-50 {
+    padding
